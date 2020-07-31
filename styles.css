@@ -34,7 +34,6 @@ html {
 
 body {
     background-image: url("images/background.png");
-    width: 100%;
 }
 
 
@@ -113,19 +112,19 @@ body {
     border-radius: 20%;
 }
 #partners .uzima {
-    padding: 10px 0px 70px 30px;
+    padding: 40px 0px 70px 30px;
 }
 #partners .uzima img {
     width: 300px;
 }
 #partners .bighost {
-    padding: 0px 0px 30px 30px;
+    padding: 0px 0px 0px 30px;
 }
 #services {
     padding: 70px 100px 70px 0px;
 }
 #services .heading {
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 30px 70px;
     text-align: center;
     font-size: 25px;
 }
@@ -168,7 +167,7 @@ body {
     text-align: center;
 }
 #testimonials .heading {
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 30px 70px;
     font-size: 25px;
 }
 #testimonials img {
@@ -181,8 +180,9 @@ body {
     width: 120px;
 }
 #testimonials .persons-1 {
-    padding: 10px 5% 20px 0%;
-    margin-right: 5%;
+    padding: 10px 0% 20px 10%;
+    margin-right: 0%;
+    text-align: center;
 }
 #testimonials .persons-2 img {
     padding: 0px 0px 0px 0%;
@@ -190,8 +190,9 @@ body {
     width: 120px;
 }
 #testimonials .persons-2 {
-    padding: 20px 5% 20px 5%;
-    margin-right: 5%;
+    padding: 20px 0% 20px 10%;
+    margin-right: 0%;
+    text-align: center;
 }
 #testimonials .persons-3 img {
     padding: 0px 0px 0px 0%;
@@ -199,8 +200,8 @@ body {
     width: 120px;
 }
 #testimonials .persons-3 {
-    margin-right: 5%;
-    padding: 20px 5% 20px 5%;
+    margin-right: 0%;
+    padding: 20px 0% 20px 10%;
 }
 #testimonials .persons-4 img {
     padding: 0px 0px 0px 0%;
@@ -208,8 +209,8 @@ body {
     width: 120px;
 }
 #testimonials .persons-4 {
-    margin-right: 5%;
-    padding: 20px 5% 20px 5%;
+    margin-right: 0%;
+    padding: 20px 0% 20px 10%;
 }
 #contacts {
     padding: 50px 0px 50px 0px;
@@ -220,18 +221,21 @@ body {
     font-size: 25px;
 }
 #contacts .location {
-    padding: 0px 30px 0px 70px;
+    padding: 0px 30px 0px 100px;
+    float: left;
 }
 #contacts .location .header {
     text-align: center;
 }
 #contacts .email {
     text-align: center;
-    padding: 0px 0px 10px 30px;
+    padding: 0px 0px 10px 100px;
+    float: left;
 }
 #contacts .tell {
-    padding: 0px 0px 10px 30px;
+    padding: 0px 0px 10px 100px;
     text-align: center;
+    float: left;
 }
 footer {
     background-color: black;
@@ -243,23 +247,27 @@ footer .list-group-item:hover {
     color: red;
 }
 footer .footer-1 {
-    padding: 20px 90px 0px 70px;
+    padding: 20px 90px 0px 0px;
+    float: left;
 }
 footer .contact {
-    padding: 20px 40px 0px 5px;
+    padding: 20px 40px 0px 0px;
+    float: left;
 }
 footer .contact a {
-    padding: 20px 20px 20px 15px;
+    padding: 20px 20px 20px 0px;
 }
 footer .links {
-    padding: 20px 40px 0px 25px;
+    padding: 20px 40px 0px 0px;
     display: block;
+    float: left;
 }
 footer .services-1 {
-    padding: 20px 40px 0px 25px;
+    padding: 20px 40px 0px 0px;
+    float: left;
 }
 footer .update {
-    padding: 20px 40px 0px 50px;
+    padding: 20px 40px 0px 0px;
 }
 footer .update button {
     color: green;
