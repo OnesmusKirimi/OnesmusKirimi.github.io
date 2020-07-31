@@ -122,7 +122,7 @@ body {
     padding: 0px 0px 30px 30px;
 }
 #services {
-    padding: 70px 30px 70px 30px;
+    padding: 70px 100px 70px 0px;
 }
 #services .heading {
     padding: 20px 0px 30px 0px;
@@ -132,49 +132,43 @@ body {
 #services img {
     padding: 0px 30px 0px 0px;
     width: 150px;
+    background-color: white;
 }
 #services a {
-    text-align: center;
+    padding-left: 10px;
 }
 #services .website {
-    padding: 0px 50px 30px 100px;
+    padding: 0px 0px 30px 100px;
 }
 #services img {
-    padding: 0px 30px 0px 0px;
-    width: 150px;
-}
-#services .website img {
+    padding: 0px 0px 0px 0px;
     width: 200px;
-    height: 90px;
+    height: 90;
 }
 #services .application {
     padding: 0px 0px 30px 100px;
 }
 #services .application img {
-    width: 150px;
-    height: 100px;
+    height: 90px;
 }
 #services .hosting {
     padding: 0px 0px 30px 100px;
 }
 #services .hosting img {
-    width: 150px;
-    height: 100px;
+    height: 90px;
 }
 #services .webdesign {
     padding: 0px 0px 30px 100px;
 }
 #services .webdesign img {
-    width: 150px;
-    height: 100px;
+    height: 90px;
 }
 #testimonials {
-    padding: 100px 0px 100px 0px;
+    padding: 100px 30px 100px 50px;
     text-align: center;
 }
 #testimonials .heading {
     padding: 20px 0px 30px 0px;
-    text-align: center;
     font-size: 25px;
 }
 #testimonials img {
@@ -187,7 +181,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-1 {
-    padding: 10px 5% 20px 0%;
+    padding: 10px 10% 20px 0%;
 }
 #testimonials .persons-2 img {
     padding: 0px 0px 0px 0%;
@@ -195,7 +189,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-2 {
-    padding: 20px 5% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #testimonials .persons-3 img {
     padding: 0px 0px 0px 0%;
@@ -203,7 +197,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-3 {
-    padding: 20px 5% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #testimonials .persons-4 img {
     padding: 0px 0px 0px 0%;
@@ -211,7 +205,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-4 {
-    padding: 20px 5% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #contacts {
     padding: 50px 0px 50px 0px;
@@ -226,6 +220,9 @@ body {
 }
 #contacts .location {
     padding: 0px 30px 0px 70px;
+}
+#contacts .location .header {
+    text-align: center;
 }
 #contacts .email {
     text-align: center;
