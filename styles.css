@@ -181,7 +181,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-1 {
-    padding: 10px 8% 20px 0%;
+    padding: 10px 10% 20px 0%;
 }
 #testimonials .persons-2 img {
     padding: 0px 0px 0px 0%;
@@ -189,7 +189,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-2 {
-    padding: 20px 8% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #testimonials .persons-3 img {
     padding: 0px 0px 0px 0%;
@@ -197,7 +197,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-3 {
-    padding: 20px 8% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #testimonials .persons-4 img {
     padding: 0px 0px 0px 0%;
@@ -205,7 +205,7 @@ body {
     width: 120px;
 }
 #testimonials .persons-4 {
-    padding: 20px 8% 20px 0%;
+    padding: 20px 10% 20px 0%;
 }
 #contacts {
     padding: 50px 0px 50px 0px;
@@ -215,9 +215,6 @@ body {
     text-align: center;
     font-size: 25px;
 }
-#contacts {
-    padding: 0px 0px 0px 0px;
-}
 #contacts .location {
     padding: 0px 30px 0px 70px;
 }
@@ -226,8 +223,10 @@ body {
 }
 #contacts .email {
     text-align: center;
+    padding: 0px 0px 10px 30px;
 }
 #contacts .tell {
+    padding: 0px 0px 10px 30px;
     text-align: center;
 }
 footer {
