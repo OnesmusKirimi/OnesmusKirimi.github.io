@@ -131,19 +131,42 @@ body {
 }
 #services img {
     padding: 0px 30px 0px 0px;
-    width: 130px;
+    width: 150px;
+}
+#services a {
+    text-align: center;
 }
 #services .website {
-    padding: 0px 50px 30px 120px;
+    padding: 0px 50px 30px 100px;
+}
+#services img {
+    padding: 0px 30px 0px 0px;
+    width: 150px;
+}
+#services .website img {
+    width: 200px;
+    height: 90px;
 }
 #services .application {
     padding: 0px 0px 30px 100px;
 }
+#services .application img {
+    width: 150px;
+    height: 100px;
+}
 #services .hosting {
     padding: 0px 0px 30px 100px;
 }
+#services .hosting img {
+    width: 150px;
+    height: 100px;
+}
 #services .webdesign {
-    padding: 0px 0px 30px 120px;
+    padding: 0px 0px 30px 100px;
+}
+#services .webdesign img {
+    width: 150px;
+    height: 100px;
 }
 #testimonials {
     padding: 100px 0px 100px 0px;
@@ -202,7 +225,7 @@ body {
     padding: 0px 0px 0px 0px;
 }
 #contacts .location {
-    padding: 0px 30px 0px 90px;
+    padding: 0px 30px 0px 70px;
 }
 #contacts .email {
     text-align: center;
