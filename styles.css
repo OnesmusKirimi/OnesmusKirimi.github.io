@@ -164,7 +164,7 @@ body {
     height: 90px;
 }
 #testimonials {
-    padding: 100px 30px 100px 30px;
+    padding: 100px 0px 100px 0px;
     text-align: center;
 }
 #testimonials .heading {
@@ -208,7 +208,7 @@ body {
     padding: 20px 8% 20px 0%;
 }
 #contacts {
-    padding: 50px 50px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 #contacts .heading {
     padding: 20px 0px 30px 0px;
@@ -232,7 +232,7 @@ body {
 }
 footer {
     background-color: black;
-    padding: 50px 0px 0px 30px;
+    padding: 50px 0px 0px 0px;
     text-align: center;
     color: whitesmoke;
 }
