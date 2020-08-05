@@ -277,3 +277,294 @@ footer .update button:hover {
     color: red;
     background-color: white;
 }
+
+/*the services styling i.e website development, websit designing,hosting and application development*/
+
+/*Application development*/
+.header {
+    height: 40px;
+}
+.header .logo {
+    float: left;
+    padding: 20px 0px 0px 20px;
+}
+.header .logo img {
+    border-radius: 50%;
+    width: 100px;
+}
+.header .mail {
+    float: right;
+    padding: 20px 0px 0px 0px;
+}
+.app {
+    padding: 20px 0px 50px 20px;
+    display: block;
+}
+#app .nav {
+    margin-top: 30px;
+}
+.app h1 {
+    float: left;
+    padding: 30px 0px 30px 20px;
+}
+.app button {
+    margin-left: 40%;
+    padding: 20px 50px 20px 50px;
+    font-size: large;
+    border-radius: 5%;
+}
+.app .desc {
+    padding: 20px 0px 50px 20px;
+    display: block;
+}
+.app .desc h4 {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times-New-Roman";
+    text-align-last: center;
+}
+.app .desc h4>strong {
+    text-align: center;
+    font-family: "Times-New-Roman";
+    color: green;
+}
+#application #plans {
+    display: inline-block;
+    padding: 10px 0px 0px 120px;
+}
+#application #plans h3 {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+    text-underline-position: below;
+    padding: 20px 0px 20px 0px;
+}
+#application #plans img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding-left: 0%;
+    margin-left: 20%;
+}
+#portifilios {
+    padding: 10% 5% 5% 5%;
+}
+#portifilios h3 {
+    text-align: center;
+    font-size: 25px;
+    color: green;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+#portifilios p {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+/*-------------------------------------------Websitedevelopment--------------------------------------*/
+#webdevelopment .nav {
+    margin-top: 30px;
+}
+#webdevelopment .heading {
+    height: 450px;
+}
+#webdevelopment .heading h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: green;
+    padding: 150px 0px 20px 0px;
+}
+#webdevelopment .heading p {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding: 10px 0px 20px 0px;
+}
+#webdevelopment .heading button {
+    margin-left: 40%;
+    padding: 20px 50px 20px 50px;
+    font-size: large;
+    border-radius: 5%;
+}
+#webdevelopment #plans {
+    padding-top: 5%;
+    height: 50%;
+}
+#webdevelopment #plans h3 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+#webdevelopment #plans .header {
+    text-align: center;
+    padding: 10px 0px 90px 0px;
+}
+#webdevelopment #plans ul {
+    border-style: none;
+}
+#webdevelopment #plans li {
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+}
+#webdevelopment #plans button {
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 40%;
+}
+
+/*-----------------------------website designing---------------------------*/
+#website-designing .nav {
+    margin-top: 30px;
+}
+#website-designing #heading h1 {
+    text-align: center;
+    color: green;
+}
+.par {
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+.desc {
+    font-weight: normal;
+    text-align: left;
+    padding: 10px 5px 30px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main img {
+    float: right;
+    width: 250px;
+    height: 200px;
+    border-color: greenyellow;
+    border-radius: 50%;
+    padding: 20px 20px 20px 0px;
+}
+.plan {
+    font-weight: normal;
+    text-align: left;
+    padding: 30px 0px 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.offers {
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.offers p {
+    font-weight: normal;
+    text-align: center;
+    color: green;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.offers ul {
+    font-weight: normal;
+    font-style: oblique;
+    list-style-type: none;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#website-designing #plans {
+    font-family: 'Times New Roman', serif;
+    padding: 100px 0px 20px 250px;
+    display: inline;
+}
+#website-designing #plans ul {
+    list-style-type: none;
+    text-align: center;
+}
+#website-designing #plans .basic {
+    font-family: 'Times New Roman', serif;
+    box-shadow: 6px 6px 6px 6px;
+    padding: 90px 40px 150px 50px;
+    float: left;
+}
+.professionals {
+    font-family: 'Times New Roman', serif;
+    box-shadow: 6px 6px 6px 6px;
+    padding: 50px 40px 90px 50px;
+    float: left;
+}
+.commerce {
+    font-family: 'Times New Roman', serif;
+    box-shadow: 6px 6px 6px 6px;
+    padding: 50px 30px 50px 10px;
+    float: left;
+}
+
+/*--------------------------------Webhosting------------------------------*/
+#hosting .nav {
+    margin-top: 30px;
+}
+#hosting .plan {
+    height: 400px;
+}
+#hosting li {
+    padding: 5px 0px 5px 0px;
+    list-style-type: none;
+}
+#hosting h4 {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+#hosting h3 {
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+}
+#hosting p {
+    text-align: center;
+}
+#hosting .basic {
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+#hosting .basic button {
+    margin-left: 10%;
+    padding: 5px 20px 5px 20px;
+    margin-top: 100px;
+}
+#hosting .plus {
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+#hosting .plus button {
+    margin-left: 10%;
+    margin-top: 70px;
+    padding: 5px 20px 5px 20px;
+}
+#hosting .premium {
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+#hosting .premium button {
+    margin-left: 10%;
+    padding: 5px 20px 5px 20px;
+}
+#hosting-pricing {
+    height: 300px;
+}
+.form {
+    padding: 50px 0px 40px 0px;
+    text-align: center;
+}
+.form p {
+    text-align: center;
+}
+#hosting input {
+    margin-left: 30%;
+    width: 400px;
+}
+.domains {
+    padding: 50px 0px 50px 0px;
+}
