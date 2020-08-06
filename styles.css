@@ -61,9 +61,9 @@ body {
     font-family: "Quantico";
     font-size: 35px;
 }
-.home.header {
+.home .header {
     text-align: center;
-    padding: 25% 0% 15% 0%;
+    padding: 300px 0px 200px 0px;
     font-family: "Quantico";
 }
 #About {
@@ -121,10 +121,10 @@ body {
     padding: 0px 0px 0px 30px;
 }
 #services {
-    padding: 70px 100px 70px 0px;
+    padding: 70px 0px 70px 0px;
 }
 #services .heading {
-    padding: 20px 0px 30px 70px;
+    padding: 20px 0px 30px 0px;
     text-align: center;
     font-size: 25px;
 }
@@ -137,80 +137,89 @@ body {
     padding-left: 10px;
 }
 #services .website {
-    padding: 0px 0px 30px 100px;
+    padding: 30px 0px 30px 0px;
+    display: block;
+    text-align: center;
 }
 #services img {
     padding: 0px 0px 0px 0px;
-    width: 200px;
+    width: 100px;
     height: 90;
 }
 #services .application {
-    padding: 0px 0px 30px 100px;
+    padding: 30px 0px 30px 0px;
+    display: block;
+    text-align: center;
 }
 #services .application img {
     height: 90px;
+    width: 100px;
 }
 #services .hosting {
-    padding: 0px 0px 30px 100px;
+    padding: 30px 0px 30px 0px;
+    display: block;
+    text-align: center;
 }
 #services .hosting img {
     height: 90px;
+    width: 100px;
 }
 #services .webdesign {
-    padding: 0px 0px 30px 100px;
+    padding: 30px 0px 30px 0px;
+    display: block;
+    text-align: center;
 }
 #services .webdesign img {
     height: 90px;
+    width: 100px;
 }
 #testimonials {
     padding: 100px 0px 100px 0px;
     text-align: center;
 }
 #testimonials .heading {
-    padding: 20px 0px 30px 70px;
+    padding: 20px 0px 30px 0px;
     font-size: 25px;
 }
 #testimonials img {
-    padding: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 0px;
     border-radius: 50%;
 }
 #testimonials .persons-1 img {
-    padding: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 0px;
     border-radius: 50%;
     width: 120px;
 }
 #testimonials .persons-1 {
-    padding: 10px 0% 20px 10%;
-    margin-right: 0%;
+    padding: 20px 0px 20px 0px;
     text-align: center;
 }
 #testimonials .persons-2 img {
-    padding: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 0px;
     border-radius: 50%;
     width: 120px;
 }
 #testimonials .persons-2 {
-    padding: 20px 0% 20px 10%;
-    margin-right: 0%;
+    padding: 20px 0px 20px 0px;
     text-align: center;
 }
 #testimonials .persons-3 img {
-    padding: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 0px;
     border-radius: 50%;
     width: 120px;
 }
 #testimonials .persons-3 {
-    margin-right: 0%;
-    padding: 20px 0% 20px 10%;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
 }
 #testimonials .persons-4 img {
-    padding: 0px 0px 0px 0%;
+    padding: 0px 0px 0px 0px;
     border-radius: 50%;
     width: 120px;
 }
 #testimonials .persons-4 {
-    margin-right: 0%;
-    padding: 20px 0% 20px 10%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 #contacts {
     padding: 50px 0px 50px 0px;
@@ -221,21 +230,22 @@ body {
     font-size: 25px;
 }
 #contacts .location {
-    padding: 0px 30px 0px 100px;
-    float: left;
+    padding: 0px 30px 0px 0px;
 }
-#contacts .location .header {
+#contacts .location .heading {
     text-align: center;
 }
 #contacts .email {
     text-align: center;
-    padding: 0px 0px 10px 70px;
-    float: left;
+    padding: 0px 0px 10px 0px;
+}
+#contacts .email .desc {
+    text-align: center;
+    padding: 0px 0px 10px 0px;
 }
 #contacts .tell {
-    padding: 0px 0px 10px 70px;
+    padding: 0px 0px 10px 0px;
     text-align: center;
-    float: left;
 }
 footer {
     background-color: black;
@@ -247,27 +257,23 @@ footer .list-group-item:hover {
     color: red;
 }
 footer .footer-1 {
-    padding: 20px 90px 0px 0px;
-    float: left;
+    padding: 20px 0px 0px 0px;
 }
 footer .contact {
-    padding: 20px 40px 0px 0px;
-    float: left;
+    padding: 20px 0px 0px 0px;
 }
 footer .contact a {
     padding: 20px 20px 20px 0px;
 }
 footer .links {
-    padding: 20px 40px 0px 0px;
+    padding: 20px 0px 0px 0px;
     display: block;
-    float: left;
 }
 footer .services-1 {
-    padding: 20px 40px 0px 0px;
-    float: left;
+    padding: 20px 0px 0px 0px;
 }
 footer .update {
-    padding: 20px 40px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 footer .update button {
     color: green;
@@ -299,22 +305,22 @@ footer .update button:hover {
 .app {
     padding: 20px 0px 50px 20px;
     display: block;
+    text-align: center;
 }
 #app .nav {
     margin-top: 30px;
 }
 .app h1 {
-    float: left;
-    padding: 30px 0px 30px 20px;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
 }
 .app button {
-    margin-left: 35%;
     padding: 20px 50px 20px 50px;
     font-size: large;
     border-radius: 5%;
 }
 .app .desc {
-    padding: 20px 0px 50px 20px;
+    padding: 20px 0px 50px 0px;
     display: block;
 }
 .app .desc h4 {
@@ -331,7 +337,7 @@ footer .update button:hover {
 }
 #application #plans {
     display: inline-block;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 30px 0px;
 }
 #application #plans h3 {
     text-align: center;
@@ -345,10 +351,33 @@ footer .update button:hover {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    padding-left: 0%;
+}
+#application #plans .social-media {
+    text-align: center;
+    display: block;
+}
+#application #plans .entertainment {
+    text-align: center;
+    display: block;
+}
+#application #plans .health {
+    text-align: center;
+    display: block;
+}
+#application #plans .education {
+    text-align: center;
+    display: block;
+}
+#application #plans .shopping {
+    text-align: center;
+    display: block;
+}
+#application #plans .security {
+    text-align: center;
+    display: block;
 }
 #portifilios {
-    padding: 10% 5% 5% 5%;
+    padding: 20px 0px 20px 0px;
 }
 #portifilios h3 {
     text-align: center;
@@ -369,6 +398,7 @@ footer .update button:hover {
 }
 #webdevelopment .heading {
     height: 450px;
+    text-align: center;
 }
 #webdevelopment .heading h2 {
     text-align: center;
@@ -384,7 +414,6 @@ footer .update button:hover {
     padding: 10px 0px 20px 0px;
 }
 #webdevelopment .heading button {
-    margin-left: 35%;
     padding: 20px 30px 20px 30px;
     font-size: large;
     border-radius: 5%;
@@ -397,10 +426,15 @@ footer .update button:hover {
     text-align: center;
     font-size: 25px;
     color: black;
+    text-decoration: underline;
 }
 #webdevelopment #plans .header {
     text-align: center;
     padding: 10px 0px 90px 0px;
+    font-weight: bold;
+    box-sizing: content-box;
+    font-size: 20px;
+    color: blue;
 }
 #webdevelopment #plans ul {
     border-style: none;
@@ -414,7 +448,31 @@ footer .update button:hover {
     text-align: center;
     font-size: 18px;
     list-style-type: none;
-    margin-left: 40%;
+    margin-top: 20px;
+}
+#webdevelopment #plans .basic {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+#webdevelopment #plans .basic li {
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+}
+#webdevelopment #plans .coperate {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+#webdevelopment #plans .coperate li {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+#webdevelopment #plans .professional {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+#webdevelopment #plans .professional li {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
 }
 
 /*-----------------------------website designing---------------------------*/
@@ -480,25 +538,44 @@ footer .update button:hover {
     list-style-type: none;
     text-align: center;
 }
+#website-designing #plans li {
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
 #website-designing #plans .basic {
     font-family: 'Times New Roman', serif;
     box-shadow: 6px 6px 6px 6px;
-    padding: 90px 40px 150px 50px;
+    padding: 50px 40px 70px 50px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+#website-designing #plans .basic button {
+    padding: 0px 10px 0px 10px;
+    margin-top: 190px;
 }
 .professionals {
     font-family: 'Times New Roman', serif;
     box-shadow: 6px 6px 6px 6px;
-    padding: 50px 40px 90px 50px;
+    padding: 50px 60px 60px 60px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.professionals button {
+    padding: 0px 10px 0px 10px;
+    margin-top: 90px;
 }
 .commerce {
     font-family: 'Times New Roman', serif;
     box-shadow: 6px 6px 6px 6px;
-    padding: 50px 30px 50px 10px;
+    padding: 50px 60px 60px 60px;
     float: left;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.commerce button {
+    padding: 0px 10px 0px 10px;
     margin-top: 20px;
 }
 
@@ -509,6 +586,11 @@ footer .update button:hover {
 #hosting .plan {
     height: 400px;
 }
+#hosting .plan p {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
 #hosting li {
     padding: 5px 0px 5px 0px;
     list-style-type: none;
@@ -518,6 +600,7 @@ footer .update button:hover {
     text-align: center;
     font-size: 25px;
     color: red;
+    font-weight: bold;
 }
 #hosting h3 {
     text-align: center;
@@ -531,26 +614,35 @@ footer .update button:hover {
     padding: 50px 0px 30px 0px;
     text-align: center;
 }
+#hosting .basic li {
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
 #hosting .basic button {
-    margin-left: 10%;
     padding: 5px 20px 5px 20px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 #hosting .plus {
     padding: 50px 0px 30px 0px;
     text-align: center;
 }
+#hosting .plus li {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
 #hosting .plus button {
-    margin-left: 10%;
-    margin-top: 70px;
+    margin-top: 40px;
     padding: 5px 20px 5px 20px;
 }
 #hosting .premium {
     padding: 50px 0px 30px 0px;
     text-align: center;
 }
+#hosting .premium li {
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+}
 #hosting .premium button {
-    margin-left: 10%;
     padding: 5px 20px 5px 20px;
 }
 #hosting-pricing {
@@ -562,9 +654,6 @@ footer .update button:hover {
 }
 .form p {
     text-align: center;
-}
-#hosting input {
-    margin-left: 30%;
 }
 .domains {
     padding: 50px 0px 50px 0px;
